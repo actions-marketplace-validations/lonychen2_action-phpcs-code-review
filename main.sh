@@ -89,8 +89,8 @@ if [[ "$(echo "$PHP_LINT" | tr '[:upper:]' '[:lower:]')" = 'false' ]]; then
   php_lint_option='--lint=false'
 fi
 
-echo "BBBB"
-php -i
+cat /home/rtbot/vip-go-ci-tools/vip-go-ci/main.php
+
 echo "Running the following command!!!!!!!!!!!!"
 echo "/home/rtbot/vip-go-ci-tools/vip-go-ci/vip-go-ci.php \
   --phpcs-skip-folders-in-repo-options-file=true \
