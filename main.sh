@@ -91,7 +91,7 @@ fi
 
 echo "BBBB"
 php -i
-echo "Running the following command"
+echo "Running the following command!!!!!!!!!!!!"
 echo "/home/rtbot/vip-go-ci-tools/vip-go-ci/vip-go-ci.php \
   --phpcs-skip-folders-in-repo-options-file=true \
   --lint-skip-folders-in-repo-options-file=true \
