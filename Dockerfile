@@ -22,7 +22,6 @@ RUN set -eux; \
 	php8.0-cli \
 	php8.0-common \
 	php8.0-curl \
-	php8.0-json \
 	php8.0-mbstring \
 	php8.0-mysql \
 	php8.0-xml \
