@@ -14,4 +14,7 @@ if [[ -d "$custom_path" ]]; then
     rsync -a "$custom_path" /usr/local/bin/
 fi
 
+echo "AAA"
+php -v
+
 bash "$main_script" "$@"
